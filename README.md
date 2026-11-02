@@ -12,15 +12,15 @@
 
 **Steps**
 
-1. Install dependencies  
+1. Install dependencies
    ```bash
    npm install
    ```
-2. Run tests  
+2. Run tests
    ```bash
    npm test
    ```
-3. Bundle the action  
+3. Bundle the action
    ```bash
    npm run bundle
    ```
