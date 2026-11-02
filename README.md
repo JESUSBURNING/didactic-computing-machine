@@ -3,6 +3,47 @@
 [![GitHub Super-Linter](https://github.com/actions/hello-world-javascript-action/actions/workflows/linter.yml/badge.svg)](https://github.com/super-linter/super-linter)
 ![CI](https://github.com/actions/hello-world-javascript-action/actions/workflows/ci.yml/badge.svg)
 
+## Houseof589QuickStart
+
+**Prerequisites**
+
+- Node.js 20 or newer
+- npm
+
+**Steps**
+
+1. Install dependencies  
+   ```bash
+   npm install
+   ```
+2. Run tests  
+   ```bash
+   npm test
+   ```
+3. Bundle the action  
+   ```bash
+   npm run bundle
+   ```
+
+**Example workflow**
+
+```yaml
+name: Houseof589 Quick Start
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Hello World Action
+        uses: ./
+        with:
+          who-to-greet: Houseof589
+```
+
 This action prints `Hello, World!` or `Hello, <who-to-greet>!` to the log. To
 learn how this action was built, see
 [Creating a JavaScript action](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action).
