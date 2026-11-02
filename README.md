@@ -117,4 +117,5 @@ To check the status of cached licenses, run the following command:
 licensed status
 ```
 
-Tended by the JESUSBURNING House of 589's: Scroll Scribe (docs) and Garden Keeper.
+Tended by the JESUSBURNING House of 589's: Scroll Scribe (docs) and Garden
+Keeper.
