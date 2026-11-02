@@ -49,4 +49,10 @@ describe('action', () => {
 
     expect(core.setFailed).toHaveBeenCalledWith('Something went wrong...')
   })
+
+  it('logs the greeting', async () => {
+    await main.run()
+
+    expect(core.info).toHaveBeenCalledWith('Hello, World!')
+  })
 })
