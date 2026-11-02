@@ -3,7 +3,7 @@
 [![GitHub Super-Linter](https://github.com/actions/hello-world-javascript-action/actions/workflows/linter.yml/badge.svg)](https://github.com/super-linter/super-linter)
 ![CI](https://github.com/actions/hello-world-javascript-action/actions/workflows/ci.yml/badge.svg)
 
-## Houseof589QuickStart
+## House of 589 Quick Start
 
 **Prerequisites**
 
@@ -28,7 +28,7 @@
 **Example workflow**
 
 ```yaml
-name: Houseof589 Quick Start
+name: House of 589 Quick Start
 
 on:
   workflow_dispatch:
@@ -37,11 +37,11 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Run Hello World Action
         uses: ./
         with:
-          who-to-greet: Houseof589
+          who-to-greet: House of 589
 ```
 
 This action prints `Hello, World!` or `Hello, <who-to-greet>!` to the log. To
